@@ -5,36 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>wp_base</title>
   </head>
-
   <body>
-   
-    <div class="input">
-      <input type="text" id="get-country" />
-      <button type="submit" id="get-country-btn">Finde</button>
-    </div>
-    <!-- <h1 class="title">Country name</h1> -->
-    <div id="country-box">
-      <template class="country-box__container">
-        <ul>
-          <li>Capital</li>
-          <li>Population</li>
-          <li>
-            Languages
-            <ul>
-              <li>German</li>
-              <li>French</li>
-              <li>Italian</li>
-            </ul>
-          </li>
-        </ul>
-        <div class="country-box__img">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/1200px-Flag_of_Switzerland.svg.png"
-            width="200"
-            alt="#"
-          />
-        </div>
-      </template>
+    <div class="fetch-coutry-wrapper">
+      <div class="input-wrapper">
+        <input type="text" id="get-country" />
+        <button type="submit" id="get-country-btn">Finde</button>
+      </div>
+      <div id="country-box">
+        <template class="country-box__container">
+          <ul class="list">
+            <li>Capital</li>
+            <li>Population</li>
+            <li>
+              Languages
+              <ul class="language-list">
+                <li>German</li>
+                <li>French</li>
+                <li>Italian</li>
+              </ul>
+            </li>
+          </ul>
+          <div class="country-box__img">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/1200px-Flag_of_Switzerland.svg.png"
+              width="200"
+              alt="#"
+            />
+          </div>
+        </template>
+      </div>
     </div>
   </body>
 </html>

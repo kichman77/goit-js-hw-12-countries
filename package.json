@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/kichman77/goit-js-hw-12-countries"
   },
-  "homepage": "",
+  "homepage": "https://kichman77.github.io/goit-js-hw-12-countries/",
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
