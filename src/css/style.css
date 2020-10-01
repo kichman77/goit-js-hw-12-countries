@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  justify-content: center;
+  padding: 70px;
+  background-color: grey;
+  color: wheat;
+  font-size: 20px;
+}
+#get-country {
+  width: 250px;
+  padding: 15px;
+  font-size: 30px;
+}
+#get-country-btn {
+  padding: 15px;
+}
+.input {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  padding: 5px 20px;
+  margin: 50px auto;
+  border-radius: 20px;
+}
+button{
+  display: none;
+}
+
+.country-box__container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.country-box__img {
+  display: block;
+}
